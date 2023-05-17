@@ -1,4 +1,4 @@
-API demo project
+API demo project [![Java CI](https://github.com/angeleliseo/apiDemo-sdet/actions/workflows/apiDemo-build.yaml/badge.svg)](https://github.com/angeleliseo/apiDemo-sdet/actions/workflows/apiDemo-build.yaml)
 =================
 
 a demo project to be used to exemplify 
