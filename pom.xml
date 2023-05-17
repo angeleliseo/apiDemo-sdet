@@ -11,7 +11,7 @@
 	<groupId>com.dnylpz</groupId>
 	<artifactId>apiDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>apiDemo</name>
 	<description>Demo project for a rest api to demo stuff</description>
 	<properties>
@@ -28,6 +28,20 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+        	<groupId>org.apache.httpcomponents.client5</groupId>
+        	<artifactId>httpclient5</artifactId>
+        	<version>5.2.1</version>
+        	<scope>test</scope>
+    	</dependency>
+    	<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+		<dependency>
+    		<groupId>io.rest-assured</groupId>
+    		<artifactId>rest-assured</artifactId>
+    		<version>5.3.0</version>
+    		<scope>test</scope>
+		</dependency>
+
 	</dependencies>
 
 	<build>
